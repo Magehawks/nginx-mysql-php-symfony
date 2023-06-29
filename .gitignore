@@ -1,0 +1,40 @@
+# Symfony
+/.env
+/.env.local
+/.env.test
+/vendor/
+/var/
+
+# Docker
+/docker-compose.override.yml
+/docker-compose.yml
+/docker/nginx.conf
+
+# MySQL
+/mysql-data/
+
+# IDEs and Editors
+/.idea/
+/.vscode/
+/.phpstorm.meta.php/
+/.phpstorm.meta.php.tmp/
+/.phpstorm.meta-warnings.php
+/.phpstorm.meta-warnings.php.tmp/
+/.phpstorm.stubs.php/
+/.phpstorm.stubs.php.tmp/
+/.phpstorm.meta.php.tmp
+/.phpstorm.meta-warnings.php.tmp
+/.phpstorm.meta-warnings.php
+/.phpstorm.stubs.php.tmp
+
+# Logs
+/dev.log
+/var/log/
+
+# Miscellaneous
+.DS_Store
+.sass-cache/
+.node_modules/
+/public/build/
+/public/bundles/
+/public/uploads/
